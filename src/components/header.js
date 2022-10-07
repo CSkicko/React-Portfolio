@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from './navigation';
 
-export default function Header() {
+export default function Header({ activePage, setActivePage }) {
     return (
         <div className="header-container">
             <nav className="navbar navbar-expand-lg bg-light">
@@ -11,7 +11,7 @@ export default function Header() {
                     <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <Navigation />
+                    <Navigation activePage={activePage} setActivePage={setActivePage}/>
                     </div>
                 </div>
             </nav>
