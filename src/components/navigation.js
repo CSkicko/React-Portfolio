@@ -10,11 +10,10 @@ export default function Navigation({ activePage, setActivePage }) {
     return (
         <div className="nav-container">
             <div className="navbar-nav">
-                <a className="nav-link" href ='About Me' onClick={navigate}>About Me</a>
-                <a className="nav-link" href ='Portfolio' onClick={navigate}>Portfolio</a>
-                <a className="nav-link" href ='Contact' onClick={navigate}>Contact</a>
-                <a className="nav-link" href ='Resume' onClick={navigate}>Resume</a>
-                <p>Active page is {activePage}</p>
+                <a className={activePage === "About Me" ? "nav-link active" : "nav-link"} href ='About Me' onClick={navigate}>About Me</a>
+                <a className={activePage === "Portfolio" ? "nav-link active" : "nav-link"} href ='Portfolio' onClick={navigate}>Portfolio</a>
+                <a className={activePage === "Contact" ? "nav-link active" : "nav-link"} href ='Contact' onClick={navigate}>Contact</a>
+                <a className={activePage === "Resume" ? "nav-link active" : "nav-link"} href ='Resume' onClick={navigate}>Resume</a>
             </div>
         </div>
     );
