@@ -10,6 +10,9 @@ import AboutMe from './components/aboutMe';
 import Contact from './components/contact';
 import Resume from './components/resume';
 
+// Import styles
+import './styles/main.css';
+
 function App() {
   // Set the active page and provide a default status for the About Me page
   const [activePage, setActivePage] = useState('About Me');
