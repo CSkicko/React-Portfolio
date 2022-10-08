@@ -35,20 +35,25 @@ export default function Project({ title, tech, ghurl, depurl }) {
     // Set the card styles
     const cardStyle = { 
         textAlign: "left", 
-        height: "150px", 
         backgroundImage: `url(${getImage(title)})`,
         backgroundSize: 'cover',
         backgroundPosition: 'top', 
     };
 
     return (
-        <div className="card col-5 my-4 p-0" style={cardStyle}>
+        <div className="card col-12 col-md-5 my-4 p-0" style={cardStyle}>
             <div className="card-cover">
                 <div className="card-body">
-                    <h5 className="card-title">{title}</h5>
-                    <h6 className="card-subtitle mb-2 text-muted">{tech}</h6>
-                    <a href={ghurl} target="_blank" rel="noreferrer" class="card-link">Code</a>
-                    <a href={depurl} target="_blank" rel="noreferrer" class="card-link">Application</a>
+                    <h5 className="card-title mb-4">{title}</h5>
+                    <h6 className="card-subtitle mb-4">{tech}</h6>
+                    <div className="row mt-auto">
+                        <div className="col-6">
+                            <a href={ghurl} target="_blank" rel="noreferrer" className="card-link project-link">Code</a>
+                        </div>
+                        <div className="col-6">
+                            <a href={depurl} target="_blank" rel="noreferrer" className="card-link project-link">Application</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
