@@ -8,7 +8,7 @@ export default function Footer() {
     const style = { color: "#41B3A3", height: "50px", width: "50px", margin: "20px" };
 
     return (
-        <div className="footer-container">
+        <div className="footer-container mt-5">
             <a href='https://github.com/CSkicko' target='_blank' rel="noreferrer">
                 <FaGithub style={style}/>
             </a>

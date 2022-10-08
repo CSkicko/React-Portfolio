@@ -8,7 +8,7 @@ export default function Portfolio() {
             <h2 className="mb-5">Portfolio</h2>
             <div className="row justify-content-around mb-5">
                 {projects.map((project) => (
-                    <Project title={project.title} tech={project.tech} ghurl={project.githubUrl} depurl={project.deployedUrl}/>
+                    <Project title={project.title} tech={project.tech} ghurl={project.githubUrl} depurl={project.deployedUrl} imageurl={project.imageUrl}/>
                 ))}
             </div>
         </div>
