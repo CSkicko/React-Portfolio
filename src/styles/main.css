@@ -38,6 +38,11 @@ h2 {
     border-radius: 10px;
 }
 
+.btn-submit {
+    background: #2D3142 !important;
+    color: white !important;
+}
+
 .card > * {
     visibility: hidden;
 }
