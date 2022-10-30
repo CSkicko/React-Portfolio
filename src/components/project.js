@@ -4,7 +4,7 @@ import React from 'react';
 import fm from '../images/fridge-magician.png';
 import jate from '../images/jate.png';
 import nt from '../images/note-taker.png';
-import portfolio from '../images/portfolio.png';
+import pc from '../images/pro-coach.png';
 import tb from '../images/tech-blog.png';
 import wd from '../images/weather-dashboard.png';
 
@@ -27,8 +27,8 @@ export default function Project({ title, tech, ghurl, depurl }) {
         if (projectTitle === 'Weather Dashboard') {
             return wd;
         };
-        if (projectTitle === 'Portfolio Example') {
-            return portfolio;
+        if (projectTitle === 'Pro Coach') {
+            return pc;
         };
     };
 
