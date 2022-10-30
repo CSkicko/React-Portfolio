@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.337503d4.css",
-    "main.js": "/react-portfolio/static/js/main.80e5bd48.js",
+    "main.js": "/react-portfolio/static/js/main.f0de2052.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/fridge-magician.png": "/react-portfolio/static/media/fridge-magician.3973f5d7193b45dac7f1.png",
-    "static/media/portfolio.png": "/react-portfolio/static/media/portfolio.1d07861a09695b4dca7b.png",
+    "static/media/pro-coach.png": "/react-portfolio/static/media/pro-coach.66f20b5a053e284bb863.png",
     "static/media/cv.pdf": "/react-portfolio/static/media/cv.c30eef95683890665823.pdf",
     "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.f8935c8aafd4c898c545.png",
     "static/media/profile.jpg": "/react-portfolio/static/media/profile.188a139c96b7a68ee44b.jpg",
@@ -14,11 +14,11 @@
     "static/media/logo.svg": "/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-portfolio/index.html",
     "main.337503d4.css.map": "/react-portfolio/static/css/main.337503d4.css.map",
-    "main.80e5bd48.js.map": "/react-portfolio/static/js/main.80e5bd48.js.map",
+    "main.f0de2052.js.map": "/react-portfolio/static/js/main.f0de2052.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.337503d4.css",
-    "static/js/main.80e5bd48.js"
+    "static/js/main.f0de2052.js"
   ]
 }
