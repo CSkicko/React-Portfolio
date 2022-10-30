@@ -30,10 +30,10 @@ const projects = [
         deployedUrl: 'https://cskicko.github.io/Weather-Dashboard/'
     },
     {
-        title: 'Portfolio Example',
-        tech: 'HTML, CSS',
-        githubUrl: 'https://github.com/CSkicko/My-Portfolio',
-        deployedUrl: 'https://cskicko.github.io/My-Portfolio/'
+        title: 'Pro Coach',
+        tech: 'MERN, Material UI',
+        githubUrl: 'https://github.com/CSkicko/Pro-Coach',
+        deployedUrl: 'https://pro-coach-2022.herokuapp.com/'
     }
 ]
 
